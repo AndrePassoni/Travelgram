@@ -1,0 +1,13 @@
+main {
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+    padding-block: var(--py-sm);
+    padding-inline: var(--px-sm);
+}
+
+main img {
+    width: 20.5rem;
+    height: 20.5rem;
+    object-fit: cover;
+}

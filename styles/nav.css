@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-block: var(--py-sm);
+    padding-inline: var(--px-sm);
+    width: 22.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+nav ul li:last-child img {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    
+    margin-left: 1rem;
+}
+
+.desktop-only {
+    display: none;
+}
+
+@media (width >= 80rem) {
+    nav {
+        width: 80rem;
+        padding-block: var(--py-md);
+        padding-inline: var(--px-lg);
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    nav ul li:last-child img {
+        margin-left: 0;
+    }
+
+    .desktop-only {
+        display: initial;
+    }
+}

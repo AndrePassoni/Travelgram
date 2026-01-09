@@ -1,0 +1,19 @@
+footer {
+    display: grid;
+    padding-block: var(--py-sm);
+    padding-inline: var(--px-sm);
+    justify-content: center;
+    gap: 1.5rem;
+
+    font: 14px/150% var(--font-family);
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+footer span:nth-child(1) {
+    display: grid;
+    justify-content: center;
+}
