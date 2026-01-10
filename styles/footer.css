@@ -17,3 +17,19 @@ footer span:nth-child(1) {
     display: grid;
     justify-content: center;
 }
+
+@media (width >= 80rem) {
+    footer {
+        display: flex;
+        padding-block: 1.5rem;
+    }
+
+    footer span:nth-child(1) {
+        margin-right: auto;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 1rem;
+    }
+}

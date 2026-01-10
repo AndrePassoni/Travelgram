@@ -3,11 +3,24 @@ main {
     justify-content: center;
     gap: 1rem;
     padding-block: var(--py-sm);
-    padding-inline: var(--px-sm);
 }
 
 main img {
     width: 20.5rem;
     height: 20.5rem;
     object-fit: cover;
+}
+
+@media (width >= 80rem) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        padding-block: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    main img {
+        width: 17.875rem;
+        height: 17.875rem;
+    }
 }
